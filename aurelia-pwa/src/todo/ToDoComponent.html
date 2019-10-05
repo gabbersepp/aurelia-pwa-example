@@ -1,0 +1,10 @@
+<template>
+    <require from="./ToDoList"></require>
+    <require from="./ToDoInput"></require>
+
+    <div>
+        <h1>ToDo App</h1>
+        <to-do-list todos.bind="todos"></to-do-list>
+        <to-do-input add.bind="addTodo"></to-do-input>
+    </div>
+</template>
